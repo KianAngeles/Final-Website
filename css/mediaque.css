@@ -1,0 +1,1602 @@
+/* Media Query For Mobile Devices */
+@media (max-width: 767px){
+    .desktop-header{
+        display: none;
+    }
+
+    .mobile-header{
+        display: block;
+    }
+
+    .hero{
+        width: 100%;
+        height: 200px;
+        flex-shrink: 0;
+    }
+
+    .hero-content{
+        width: 100%;
+        margin-left: -50px;
+        margin-top: -55%;
+        gap:0;
+    }
+
+    .hero-content h1{
+        font-family: Labrada;
+        font-size: 35px;
+        color: #4D4D4D;
+        line-height: 1;
+        margin-bottom: 3px;
+    }
+
+    .hero-content h2{
+        color:#4D4D4D;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2;
+        margin-bottom: 3px;
+    }
+    
+    .hero-content p{
+        color: #717171;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 3px;
+        width: 70%;
+    }
+
+    .hero-content a{
+        padding: 5px 5px;
+    }
+
+    .hero-image img{
+        margin-left: -75px;
+        width: 120px;
+        height: 120px;
+    }
+
+
+    .mheader-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu-toggle img {
+        width: 25px;
+        cursor: pointer;
+    }
+    
+    /* Sidebar Styles */
+    .left-sidebar{
+        display: block;
+    }
+
+    .left-sidebar {
+        position: fixed;
+        left: -250px;
+        top: 00;
+        width: 250px;
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        transition: left 0.3s ease;
+        padding: 20px;
+        z-index: 1000;
+        font-family: Inter, sans-serif;
+    }
+    
+    .left-sidebar.active {
+        left: 0;
+    }
+    
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .profile-pics {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .edit-profile-btns {
+        background-color: #4CAF50;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .menu-list {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    
+    .menu-list li {
+        margin: 10px 0;
+    }
+    
+    .menu-list li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+    }
+    
+    .logout-btn {
+        background-color: #f44336;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    .terms-policy {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        color: #888;
+        text-decoration: none;
+    }
+    
+    .terms-policy:hover {
+        text-decoration: underline;
+    }
+
+    /* PET OPTIONS*/
+    .choose-pet h2 {
+        margin-top: 2cqb;
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;   
+    }
+
+    .choose-pet p {
+        color: #212121;
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .pet-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        gap: 10px; 
+    }
+
+    .pet-option {
+        width: 30%; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pet-option a img {
+        width: 90px;
+        height: 76px;
+        border-radius: 117.967px;
+    }
+
+    .pet-option p a {
+        width: 72px;
+        height: 31px;
+        flex-shrink: 0;
+        border-radius: 68px;
+        background: #4CAF4F;
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .pet-option p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .choose-pet {
+        margin:0;
+        padding: 0;
+    }
+
+    .mobile-bird-option{
+        margin-left: 70px;
+    }
+
+    .mobile-hamster-option{
+        margin-right: 70px;
+    }
+
+    /* ESSENTIAL TIPS */
+    .tips h2{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        width: 70%;
+    }
+
+    .tips p{
+        color: #212121;
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .tips-cards{
+        gap: 20px;
+    }
+
+    .cards{
+        width: 100px;
+        height: 5px;
+        gap: 0;
+        padding-bottom: 17em;
+    }
+
+    .cards img{
+        width: 35px;
+        height: 35px;
+        flex-shrink: 0;
+        padding-bottom: 0;
+        margin-bottom: -25px;
+    }
+
+    .cards-background{
+        width: 53px;
+        height: 52px;
+        flex-shrink: 0;
+        margin-left: 0px;
+    }
+
+    .cards h3{
+        color: #4CAF4F;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        width: 70px;
+        margin-left: -9px;
+        margin-bottom: 10px;
+    }
+
+    .cards p{
+        color: #1A1010;
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 90px;
+        margin-left: -17px;
+    }
+
+    /* Video */
+    .video{
+        display: none;
+    }
+
+    /* Hero of the Month */
+    .hero-month{
+        flex-wrap: wrap;
+    }
+
+    .hero-text{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-text h3{
+        font-size: 29px;
+        margin-top: 10px;
+    }
+
+    /* Monthly Update */
+    .content{
+        width: 343px;
+        height: 175px;
+        margin: 25px;
+        border-radius: 43px;
+    }
+
+
+    .update-img{
+        display: none;
+    }
+
+    .news-text{
+        font-size: 22px;
+        padding: 0;
+        margin: 0;
+        width: 95%;
+        margin-top: 20px;
+        margin-left: 17px;
+    }
+
+    .form-row{
+        max-width: 100%;
+        margin-top: 40px;
+        margin-left: -49px;
+    }
+
+    .news-terms{
+        display: none;
+    }
+
+    /* Form Sign Up */
+    .form-container .left-section{
+        display: none;
+    }
+
+    .form-right-section{
+        width: 90%;
+    }
+
+    .signup-form input{
+        width: 100%;
+    }
+
+    /*About Us*/
+    .missions-wrapper h4{
+        font-size: 20px;
+    }
+
+    .missions-wrapper h5{
+        font-size: 25px;
+        max-width: 90%;
+    }
+
+    .missions-wrapper p {
+        font-size: 19px;
+    }
+
+    .group .background{
+        display: none;
+    }
+
+    .group h2{
+        font-size: 23px;
+        width: 100%;
+    }
+
+    .group p {
+        font-size: 19px;
+        width: 90%;
+        text-align: center;
+        margin-top: -35%;
+    }
+
+    .creation-wrapper {
+        margin-top: -10%;
+        margin-left: -30%;
+    }
+
+    .team{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-top: -100%;
+    }
+
+    .team-text h2{
+        font-size: 30px;
+        width: 500px;
+        margin-left: 35px;
+    }
+
+    .team-text p{
+        margin-top: 5px;
+        width: 300px;
+        margin-left: -50px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .team img{
+        width: 310px;
+        height: 250px;
+        text-align: center;
+        margin-left: 190px;
+    }
+
+    .commitment {
+        flex-wrap: wrap;
+        margin-left: -30%;
+    }
+
+    .commitment h2{
+        font-size: 30px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .commitment p {
+        font-size: 19px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .commitment img{
+        display: none;
+        margin-bottom: 0;
+    }
+
+    .commitment-section h2{
+        font-size: 32px;
+    }
+
+    .commitment-item img{
+        width: 50px;
+        height: 50px;
+        margin-left: 144px;
+    }
+
+    .commitment-item h3{
+        margin-left: 83px;
+    }
+
+    .commitment-item p{
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .commitment-columns{
+        flex-wrap: wrap;
+    }
+
+    .mobile-support h3{
+        margin-left: 100px;
+    }
+
+    .creation-wrapper .group img{
+        display: none;
+    }
+
+    /* Nutrition */
+    .benefits-background{
+        display: none;
+    }
+
+    .benefits-background, .nutri-hero{
+        display: none;
+    }
+
+    .mobile-hero{
+        display: block;
+        margin-left: 50px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .mobile-hero h1{
+        color: #4CAF4F;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .mobile-hero p{
+        color: #717171;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .mobile-nutrition-benefits {
+        display: block;
+        max-width: 300px;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+    }
+    
+    .benefit-item {
+        margin-bottom: 20px;
+    }
+    
+    .benefit-item h3 {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+    
+    .benefit-item p {
+        font-size: 0.9em;
+        line-height: 1.4;
+        margin: 0;
+    }
+    
+    .nutri-hero img, .nutri-hero-img-container,.benefits-background img{
+        display: none;
+    }
+
+    .nutri-hero-text h1{
+        font-size: 35px;
+        width: 300px;
+    }
+
+    .nutri-hero-text p {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .benefits-background{
+        background-color: white;
+        height: 900px;
+    }
+
+    .benefits-background h1{
+        font-size: 30px;
+        position: absolute;
+        top: 43%;
+        left: -195%;
+    }
+
+    .healthyskin{
+        left: -130px;
+        top: 55%;
+    }
+    
+    .immunesystem{
+        left: -130px;
+        top: 75%; 
+    }
+
+    .skin-text h4{
+        font-size: 25px;
+        width: 300px;
+        margin-left: -30px;
+    }
+
+    .skin-text p {
+        font-size: 22px;
+        width: 350px;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .immunesystem h4{
+        margin-left: 12px;
+    }
+    
+    .immunesystem p{
+        margin-left: 20px;
+    }
+
+    .digestion{
+        left: -188%;
+        top: 86%;
+    }
+
+    .digestion p{
+        margin-left: 0;
+    }
+
+    .longlife{
+        left: 40px;
+        top: 123%;
+    }
+
+    .longlife p{
+        margin-left: -20px;
+    }
+
+    .betterenergy{
+        left: 25px;
+        top: 147%;
+    }
+
+    .betterenergy p {
+        margin-left: -5px;
+    }
+
+    .types-background, .table-wrapper{
+        display: none;
+    }
+
+
+    .comparison-section {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .comparison-section h2 {
+        color: #4CAF4F;
+        font-size: 30px;
+    }
+    .category {
+        color: #4CAF4F;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    .recommended {
+        font-weight: bold;
+    }
+
+    .nutrition-head {
+        margin-top: 30px;
+        font-size: 36px;
+    }
+
+    .nutrition-wrapper {
+        width: 320px;
+    }
+
+    .nutrition-background {
+        background-color: white;
+    }
+
+    /* Forum Page */
+    .pagination{
+        width: 100%;
+    }
+
+    .pagination ul{
+        gap: 3px;        
+    }
+
+    .pagination ul li a{
+        font-size: 15px;
+    }
+
+    .sidebar, .post-options p{
+        display: none;
+    }
+
+    .mobile-create-post{
+        display: block;
+    }
+
+    .post-options .video{
+        display: block;
+        margin: 0;
+    }
+
+    .mobile-create-post{
+        margin: 30px;
+    }
+
+    .post-feed{
+        width: 100%
+    }
+
+    .post-feed li a {
+        font-size: 19px;
+    }
+
+    .post{
+        width: 100%;
+    }
+
+    .post-content p{
+       display: none;
+    }
+    
+    .post-time{
+        left: 20px;
+        margin-top: -23px;
+        font-size: 15px;
+    }
+    
+    .reply-text{
+        display: none;
+    }
+
+    .mobile-reply-text{
+        display: block;
+    }
+
+    /* Terms and Privacy */
+    .terms-terms{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .terms-terms h1{
+        font-size: 35px;
+    }
+
+    .effective strong{
+        font-size: 20px;
+    }
+
+    /* Profile Page */
+    .profile-container{
+        max-width: 100%;
+        height: 75%;
+    }
+
+    .profile-welcome, .profile-welcome span{
+        font-size: 30px;
+    }
+
+    .profile-text, .profile-edit, .profile-logout-btn{
+        display: none;
+    }
+
+    .profile-form-wrapper{
+        margin-top: 50px;
+        display: block;
+        margin-left: 10%;
+    }
+
+    .profile-left-section, .profile-right-section {
+        width: 89%;
+    }
+
+    .profile-bio-section {
+        margin-left: 38px;
+        margin-right: 38px;
+    }
+
+    .profile-bio-section h4{
+        text-align: left;
+    }
+
+    .profile-pfp{
+        margin-left: 35%;
+    }
+
+    .profile-edit-btn{
+        top: 33%;
+        left: 36%;
+        height: 30px;
+        width: 100px;
+    }
+
+    .profile-edit-txt{
+        padding-top: 5px;
+    }
+
+    .profile-save-btn{
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+
+    /* Pets Page */
+    .care-tips-container img, .tips-right-section{
+        display: none;
+    }
+
+    .pet-bg {
+        height: 30%;
+    }
+
+    .care-tips-container h2{
+        font-size: 26px;
+    }
+
+    .care-tips-container{
+        width: 85%;
+    }
+
+    .care-tips-container p {
+        width: 330px;
+        font-size: 20px;
+    }
+
+    .tips-left-section h3{
+        font-size: 24px;
+    }
+
+    .tips-left-section ul li{
+        font-size: 20px;
+    }
+
+    /* Footer */
+    .desktop-footer{
+        display: none;
+    }
+
+    .mobile-footer{
+        display: block;
+    }
+
+    .mobile-footer-section{
+        margin-left: 40px ;
+    }
+
+    .mobile-footer-section h3{
+        color: #FFF;
+        font-family: Inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .mobile-footer-section p, .mobile-footer-section a{
+        color: #FFF;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .mobile-footer-section img{
+        width: 30px;
+    }
+
+    .mobile-footer-elements img{
+        width: 40px;
+    }
+
+    .footer-arrow-container{
+        margin-top: 10px;
+        border-top: solid 2.5px white;
+        border-bottom: solid 2.5px white;
+    }
+
+    .mobile-footer-elements{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .mobile-footer-elements h5{
+        color: #FFF;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .mobile-last-footer{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mobile-footer-socials img{
+        margin-top: 10px;
+        width: 20px;
+        height: 25px;
+    }
+
+    .mobile-footer h4{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 13px;
+    }
+
+    /* MOBILE FOOTER ACTIONS */
+    /* Footer Styles */
+    .footer-nutrition-section, .footer-about-section{
+        display: block;
+    }
+    .mobile-footer {
+        background-color: #506370;
+        padding: 20px;
+        color: white;
+    }
+
+    .mobile-footer-container {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mobile-footer-section h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-footer-section p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .footer-arrow-container {
+        margin-top: 20px;
+    }
+
+    .mobile-footer-elements {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .mobile-arrows{
+        width: 35px;
+        transition: transform 0.3s ease; 
+        z-index: 1000;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 10px 0;
+    }
+
+    .mobile-footer-socials {
+        margin-top: 10px;
+    }
+
+    .social-icon {
+        width: 25px;
+        margin: 0 10px;
+    }
+
+    /* Hidden Nutrition List */
+    .nutrition-list, .about-list {
+        display: none;
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .nutrition-list li a, .about-list li a{
+        padding: 5px 0;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .nutrition-list li a:hover, .about-list li a:hover{
+        text-decoration: underline;
+    }
+
+    /* Initially hidden Nutrition List */
+    .nutrition-list, .about-list {
+        display: none;
+    }
+
+    /* Show list when active */
+    .nutrition-list.show, .about-list.show {
+        display: block;
+    }
+
+    /* Rotate arrow when active */
+    .mobile-arrows.active {
+        transform: rotate(180deg);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+
+/* Media Query For Tablet Viewport */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        overflow-x: hidden;
+    }
+
+    .desktop-header {
+        display: none;
+    }
+    
+    .tablet-header{
+        display: block;
+    }
+
+    .menu-toggle img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .site-title h1 a{
+        font-size: 45px;
+    }
+
+    .mobile-register-btn{
+        width: 90px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .left-sidebar{
+        display: block;
+    }
+    
+    .left-sidebar {
+        position: fixed;
+        left: -350px;
+        top: 0;
+        width: 350px; 
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        transition: left 0.3s ease;
+        padding: 30px;
+        z-index: 1000;
+    }
+
+    .left-sidebar.active {
+        left: 0; 
+    }
+
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px; 
+    }
+
+    .profile-pics {
+        width: 100px; 
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    .profile-section h2 {
+        font-size: 34px; 
+        margin-bottom: 5px;
+    }
+
+    .profile-section p {
+        font-size: 26px;
+        color: #666;
+    }
+
+    .edit-profile-btns {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 15px; 
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .menu-list {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .menu-list li {
+        margin: 15px 0;
+    }
+
+    .menu-list li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 30px;
+    }
+
+    .logout-btn {
+        background-color: #f44336;
+        color: white;
+        padding: 15px; /* Bigger logout button */
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        cursor: pointer;
+        font-size: 18px; /* Larger font size for logout */
+    }
+
+    .terms-policy {
+        display: block;
+        margin-top: 30px; /* Increase margin for spacing */
+        text-align: center;
+        color: #888;
+        text-decoration: none;
+        font-size: 26px; /* Larger font for terms and policy */
+    }
+
+    .terms-policy:hover {
+        text-decoration: underline;
+    }
+
+    /* Index Page */
+    .hero{
+        width: 100%;
+    }
+
+    .hero-content{
+        width: 70%;
+        margin-top: -70px;
+        padding: 50px;
+        gap: 0;
+    }
+
+    .hero-content h1{
+        font-size: 56px;
+    }
+
+    .hero-content h2{
+        font-size: 27px;
+    }
+
+    .hero-image img{
+        margin-left: -50px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .pet-options {
+        width: 90%;
+    }
+
+    .tablet-bird-option{
+        margin-left: 20%;
+    }
+
+    .tablet-hamster-option{
+        margin-right: 18%;
+    }
+
+    .tips h2{
+        width: 70%;
+    }
+
+    .tips-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .cards{
+        width: 30%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .cards h3 {
+        font-size: 25px;
+    }
+
+    .cards p{
+        font-size: 19px;
+    }
+
+    .cards-background, .cards p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* Update */
+    .update{
+        margin: 0;
+        padding: 0;
+    }
+
+    .news-text{
+        margin-left: -20%;
+        font-size: 30px;
+    }
+
+    .news-terms{
+        margin-left: -20px;
+        width: 100%;
+    }
+
+    .update-img{
+        margin-right: -100px;
+    }
+
+    .news-text{
+        font-size: 25px;
+        width: 650px;
+        margin-top: 50px;
+    }
+
+    .news-terms{
+        font-size: 17px;
+    }
+
+
+
+
+
+    /* Register Form */
+    .form-container .left-section{
+        display: none;
+    }
+
+    .form-right-section{
+        width: 50%;
+    }
+
+    .signup-form input{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    /* About Us */
+
+    .creation-wrapper{
+        max-height: 500px;
+        padding:  0;
+    }
+
+    .creation-wrapper .group p{
+        margin-top: -80px;
+    }
+    .creation-wrapper .group h2, .creation-wrapper .group p{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .creation-wrapper .group h2{
+        font-size: 45px;
+    }
+
+    .group .background, .creation-wrapper img{
+        display: none;
+    }
+
+    .creation-wrapper{
+        width: 100%;
+    }
+
+    .creation-wrapper .group{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .team{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .team p{
+        text-align: center;
+        width: 600px;
+        margin-left: -50%;
+    }
+
+    .commitment-text{
+        margin-left: 0;
+        width: 80%;
+    }
+
+    .commitment-text h2{
+        font-size: 40px;
+    }
+
+    .commitment-text p{
+        font-size: 30px;
+        width: 520px;
+    }
+
+    .commitment {
+        margin-top: 30px;
+    }
+
+    .aboutimg3 img{
+        width: 100%;
+        height: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .commitment-columns {
+        width: 100%;
+        gap: 1px;
+    }
+   
+    .commitment-item img, .commitment-item h3{
+        margin-right: -100px;
+    }
+
+    .commitment-item p {
+        font-size: 24px;
+        width: 200px;
+    }
+
+    /* Nutrition */
+    .mobile-nutrition-benefits {
+        display: block;
+        max-width: 90%;
+        margin-left: 30px;
+        font-family: Inter, Josefin 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    
+    .benefit-item {
+        margin-bottom: 20px;
+    }
+    
+    .nutri-background-icon, .nutri-background-icon2, .nutri-right-branch, .nutri-left-branch{
+        display: none;
+    }
+
+    .nutri-hero-img-container{
+        width: 300px;
+        height: 300px;
+    }
+
+    .nutri-hero-img img{
+        width: 220px;
+        height: 220px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .nutri-hero-text h1{
+        width: 100%;
+        font-size: 45px;
+    }
+
+    .nutri-hero-text p{
+        width: 85%;
+    }
+
+    .nutri-hero{
+        height: 50%;
+        margin-bottom: 50px;
+    }
+
+    .benefits-background{
+        display: none;
+    }
+
+    .mobile-nutrition-benefits h2{
+        color: #4CAF4F;
+        text-align: center;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .benefit-item h3{
+        color: #000;
+        font-family: "Josefin Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        width: 400px;
+    }
+
+    .benefit-item p{
+        color: #000;
+        font-family: "Josefin Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 20px;
+        width: 310px;
+    }
+
+    .benefit-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px
+    }
+
+    .benefit-item{
+        width: 40%; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .last-benefit{
+        margin-left: 30%;
+    }
+
+    .types-background, .table-wrapper{
+        display: none;
+    }
+
+    .comparison-section {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .comparison-section h2 {
+        color: #4CAF4F;
+        font-size: 40px;
+    }
+    .comparison-section p{
+        font-size: 25px;
+    }
+    .category {
+        color: #4CAF4F;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    .comparison-section ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    .comparison-section ul li{
+        font-size: 24px;
+    }
+  
+    /* Forum Page */
+    .pagination{
+        width: 100%;
+    }
+
+    .pagination ul{
+        gap: 3px;        
+    }
+
+    .pagination ul li a{
+        font-size: 24px;
+    }
+
+    .create-post, .postheader, .post-options p{
+        display: none;
+    }
+
+    .mobile-create-post{
+        display: block;
+    }
+
+    .post-options .video{
+        display: block;
+        margin: 0;
+    }
+
+    .mobile-create-post{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .post-feed{
+        width: 60%;
+        margin-left: 50px;
+    }
+
+    .post-feed li a {
+        font-size: 19px;
+    }
+
+    .post{
+        width: 100%;
+    }
+
+    .post-content p{
+       display: none;
+    }
+    
+    .post-time{
+        left: 90px;
+        margin-top: -23px;
+        font-size: 15px;
+    }
+    
+    .reply-text{
+        display: none;
+    }
+
+    .mobile-reply-text{
+        display: block;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .top-helpers{
+        margin-top: 50px;
+    }
+
+    .top-helpers ol li:nth-child(n+6) {
+        display: none;
+    }
+
+    .helper-text h3{
+        font-size: 13px;
+    }
+
+    /* Terms */
+    .terms-terms p{
+        font-size: 20px;
+    }
+
+
+    /* Profile Page */
+    .profile-container {
+        max-width: 70%;
+    }
+
+    .profile-edit-btn{
+        top: 17%;
+        right: 15%;
+    }
+
+    .profile-edit{
+        top: 22%;
+        left: 22%;
+    }
+
+    /* Pets Page*/
+    .tips-right-section {
+        display: none;
+    }
+
+    .care-tips-container{
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-section{
+        width: 35%;
+    }
+
+    .copyright{
+        width: 100%;
+        margin-top: 180px;
+        font-size: 15px;
+        margin-left: -80px;
+    }
+}
+
+/* ============================================= */
+/* MEDIA QUERY FOR PRINT */
+@media print { 
+    .desktop-header, .hero, .desktop-header, .update, .video, .mobile-header, .mobile-footer{
+        display: none;
+    }
+
+    .tablet-bird-option, .mobile-bird-option {
+        margin: 0;
+    }
+
+    .pet-options{
+        width: 20%;
+    }
+
+    .choose-petP{
+        margin-bottom: 0;
+    }
+
+    .tips{
+        margin-top: 0;
+    }
+
+    .care-tips-container p{
+        width: 100%;
+    }
+
+
+}

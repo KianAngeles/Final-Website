@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurEver Care</title>
+    <link rel="icon" href="icons/favicon.png" type="image/png">
+    <link rel = "stylesheet" href ="css/styles.css">
+    <link rel = "stylesheet" href ="css/mediaque.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Labrada:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="desktop-header"> 
+        <nav>
+            <div class="logo">
+                <h1><a href="index.html">FurEver Care</a></h1>
+            </div>
+            <div class="nav-wrapper">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" >About Us</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="nutrition.html" class="active">Nutrition</a></li>
+                </ul>
+                <a href="profile.html"><img src="icons/profile.png" alt="profilee icon"></a>
+            </div>
+        </nav>
+    </header>
+
+    <header class="mobile-header tablet-header">
+        <nav class="navbar">
+            <div class="mheader-container">
+                <!-- Hamburger Menu Icon -->
+                <button class="menu-toggle">
+                    <img src="icons/burger.png" alt="Menu">
+                </button>
+                
+                <!-- Website Title -->
+                <div class="site-title">
+                    <h1><a href="index.html">FurEver Care</a></h1>
+                </div>
+                
+                <!-- Register Button -->
+                <a href="register.html" class="mobile-register-btn">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="left-sidebar">
+        <div class="profile-section">
+            <img src="images/Forum/mark.PNG" alt="Profile Picture" class="profile-pics">
+            <h2>Mark Oliver</h2>
+            <p>markoliver@gmail.com</p>
+            <button class="edit-profile-btns"> <a href="profile.html">Edit Profile</a></button>
+        </div>
+        <ul class="menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="forum.html">Forum</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+        </ul>
+        <button class="logout-btn">Logout</button>
+        <a href="terms.html" class="terms-policy">Terms and Policy</a>
+    </aside>
+
+    <div class="nutri-hero"> <!-- Hero -->
+        <div class="nutri-hero-container"> <!-- Hero Container-->
+
+            <div class="nutri-left-branch">
+                <img src="icons/nutrition/rightbranch.png" alt="branch icon" class="nutri-branch1">
+            </div>
+
+            <div class="nutri-right-branch">
+                <img src="icons/nutrition/leftbranch.png" alt="branch icon" class="nutri-branch2">
+            </div>
+
+            <div class="nutri-hero-text">
+                <h1>Provide the Best Nutrition for your pet</h1>
+                <p>Balance diets for happy healthy pets. Discover what your pet needs to thrive</p>
+            </div>
+
+            <div class="nutri-hero-img-container">
+                <div class="nutri-hero-img">
+                    <img src="images/nutrition/heroimg.PNG" >
+                </div>
+            </div>
+
+            <div class="nutri-background-icon">
+                <img src="icons/nutrition/grayleaf.png" alt="Leaf icon" class="nutri-hero-leaf1">
+            </div>
+
+            <div class="nutri-background-icon2">
+                <img src="icons/nutrition/grayleaf.png" alt="Leaf icon" class="nutri-hero-leaf2">
+            </div>
+
+        </div><!-- Hero Container-->
+    </div> <!-- Hero -->
+
+    <div class="mobile-hero">
+        <h1>Provide the Best Nutrition for Your Pet</h1>
+        <p>Balanced diets for happy, healthy pets. Discover what your pet needs to thrive.</p>
+    </div>
+
+    <!-- Benefits of Pet Nutrition -->
+    <div class="benefits-background" id="benefits">
+        <h1>Benefits of Pet Nutrition</h1>
+        <img src="icons/nutrition/benefitslogo.png" alt="Benefits icon" class="benefits-icon" >
+        <div class="benefits-container">
+
+            <div class="arrows">
+                <img src="icons/nutrition/arrow1.png" alt="arrow" class="arrow1">
+                <img src="icons/nutrition/arrow2.png" alt="arrow" class="arrow2">
+                <img src="icons/nutrition/arrow3.png" alt="arrow" class="arrow3">
+                <img src="icons/nutrition/arrow4.png" alt="arrow" class="arrow4">
+                <img src="icons/nutrition/arrow5.png" alt="arrow" class="arrow5">
+            </div>
+
+            <div class="healthyskin"> <!-- Wrapper -->
+
+                <div class="skin-icon">
+                    <img src="icons/nutrition/healthyskin.png" alt="Healty Dog and Cat">
+                </div>
+
+                <div class="skin-text">
+                    <h4>Healthy Skin</h4>
+                    <p>
+                        Proper nutrition supports healthy skin and a shiny, resilient coat, 
+                        reducing shedding and dryness.
+                    </p>
+                </div>
+
+            </div> <!-- Wrapper End-->
+
+            <div class="immunesystem"> <!-- Wrapper -->
+
+                <div class="skin-icon">
+                    <img src="icons/nutrition/healthyskin.png" alt="Healty Dog and Cat">
+                </div>
+
+                <div class="skin-text">
+                    <h4>Strong Immune System</h4>
+                    <p>
+                        Nutrient-rich food strengthens your pet's immune system, 
+                        helping them fight off infections and diseases more effectively.
+                    </p>
+                </div>
+
+            </div> <!-- Wrapper End-->
+
+            <div class="digestion"> <!-- Wrapper -->
+
+                <div class="skin-icon">
+                    <img src="icons/nutrition/digestion.png" alt="Healty Dog and Cat">
+                </div>
+
+                <div class="skin-text">
+                    <h4>Improved Digestion</h4>
+                    <p>
+                        A well-balanced diet ensures smoother digestion and 
+                        better nutrient absorption, minimizing stomach issues.
+                    </p>
+                </div>
+
+            </div> <!-- Wrapper End-->
+
+            <div class="longlife"> <!-- Wrapper -->
+
+                <div class="skin-icon">
+                    <img src="icons/nutrition/longerlife.png" alt="Healty Dog and Cat">
+                </div>
+
+                <div class="skin-text">
+                    <h4>Longer Life Expectancy</h4>
+                    <p>
+                        A well-balanced diet ensures smoother digestion and 
+                        better nutrient absorption, minimizing stomach issues.
+                    </p>
+                </div>
+
+            </div> <!-- Wrapper End-->
+
+            <div class="betterenergy"> <!-- Wrapper -->
+
+                <div class="skin-icon">
+                    <img src="icons/nutrition/energy.png" alt="Healty Dog and Cat">
+                </div>
+
+                <div class="skin-text">
+                    <h4>Better Energy Levels</h4>
+                    <p>
+                        The right food provides your pet with sustained energy, 
+                        keeping them active and playful throughout the day.
+                    </p>
+                </div>
+
+            </div> <!-- Wrapper End-->
+
+
+        </div> <!--Container End-->
+    </div><!--BG End-->
+
+    <div class="mobile-nutrition-benefits" id="benefits">
+        <h2>Benefits of Pet Nutrition</h2>
+        <div class="benefit-items">
+            <div class="benefit-item">
+                <h3>Healthy Skin</h3>
+                <p>Proper nutrition supports healthy skin and a shiny, resilient coat, reducing shedding and dryness.</p>
+            </div>
+            <div class="benefit-item">
+                <h3>Better Energy Levels</h3>
+                <p>The right food provides your pet with sustained energy, keeping them active and playful throughout the day.</p>
+            </div>
+            <div class="benefit-item">
+                <h3>Longer Life Expectancy</h3>
+                <p>A diet tailored to your pet's needs helps them live a longer, healthier life, reducing the risk of chronic illnesses.</p>
+            </div>
+            <div class="benefit-item">
+                <h3>Strong Immune System</h3>
+                <p>Nutrient-rich food strengthens your pet's immune system, helping them fight off infections and diseases more effectively.</p>
+            </div>
+            <div class="benefit-item last-benefit">
+                <h3>Improved Digestion</h3>
+                <p>A well-balanced diet ensures smoother digestion and better nutrient absorption, minimizing stomach issues.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Types of Pet Food -->
+    <div class="types-background" id="types">
+
+        <div class="types-intro-text">
+            <h1>Types of Pet Food</h1>
+            <p>
+                Choosing the right food for your pet is crucial to ensuring their health 
+                and well-being. Different pets require different types of food to meet 
+                their specific nutritional needs. Below are the main types of pet food 
+                and how they cater to the various pets covered on FurEver Care:
+            </p>
+        </div>
+
+        <div class="left-inner-bg"> <!-- Container -->
+            <div class="text-img-container"> <!-- Text Img Container -->
+                <div class="left-text">
+                    <h2>1. Wet Food</h2>
+                    <p>
+                        At FurEver Care, we are dedicated to promoting responsible pet 
+                        ownership and providing trusted information to help ensure that 
+                        pets lead happy, healthy lives. We believe that with the right 
+                        knowledge and resources, every pet owner can make a positive 
+                        impact on their pet's well-being.
+                    </p>
+                </div>
+
+                <div class="right-img">
+                    <img src="images/nutrition/wetfood.PNG" alt="wet food image">
+                </div>
+
+            </div> <!-- End Text Img Container -->
+        </div> <!-- End Container -->
+
+        <div class="right-inner-bg"> <!-- Container -->
+            <div class="text-img-container"> <!-- Text Img Container -->
+                <div class="left-img">
+                    <img src="images/nutrition/dryfood.PNG" alt="dry food image">
+                </div>
+
+                <div class="right-text">
+                    <h2>2. Dry Food</h2>
+                    <p>
+                        Dry food, also known as kibble, is crunchy and long-lasting. 
+                        It is a convenient, affordable option for dogs and cats, 
+                        promoting dental health while offering a long shelf life. 
+                        However, it has low moisture content, so pets eating dry food 
+                        need plenty of fresh water. This type of food is not appropriate 
+                        for fish, birds, or hamsters, as they require specialized diets.
+                    </p>
+                </div>
+
+            </div>  <!-- End Text Img Container -->
+        </div>  <!-- End Container -->
+
+        <div class="left-inner-bg"> <!-- Container -->
+            <div class="text-img-container"> <!-- Text Img Container -->
+                <div class="left-text">
+                    <h2>3. Raw Food</h2>
+                    <p>
+                        Raw food diets are gaining popularity among dog and cat owners. 
+                        These diets mimic the natural diet of pets in the wild, offering 
+                        high protein and natural nutrients. While raw food is beneficial 
+                        for pets with specific dietary needs, it can be expensive and requires 
+                        careful handling to avoid bacterial contamination. Like wet and dry food, 
+                        raw diets are not suitable for fish, birds, or hamsters.
+                    </p>
+                </div>
+
+                <div class="right-img">
+                    <img src="images/nutrition/rawfood.PNG" alt="raw food image">
+                </div>
+
+            </div> <!-- End Text Img Container -->
+        </div> <!-- End Container -->
+
+        <div class="right-inner-bg"> <!-- Container -->
+            <div class="text-img-container"> <!-- Text Img Container -->
+                <div class="left-img">
+                    <img src="images/nutrition/dryfood.PNG" alt="dry food image">
+                </div>
+
+                <div class="right-text">
+                    <h2>4. Homemade Food</h2>
+                    <p>
+                        Homemade meals give pet owners full control over their pets' ingredients, 
+                        making them ideal for pets with allergies or specific dietary requirements. 
+                        Dogs, cats, and even birds and hamsters can benefit from a well-planned 
+                        homemade diet. However, preparing homemade meals is time-consuming, and 
+                        it’s important to ensure a balanced mix of nutrients. Fish do not benefit 
+                        from homemade food, as they require specific commercial diets.
+                    </p>
+                </div>
+
+            </div>  <!-- End Text Img Container -->
+        </div>  <!-- End Container -->
+
+    </div> <!-- Types End -->
+
+    <div class="table-wrapper" id="comparison">
+        <table><!-- Start Table -->
+                <caption class="table-head">Pet Food Comparison</caption>
+                <caption class="table-subhead">Find the Best Nutrition for Your Pet</caption>
+                <tr><!--Row 1-->
+                    <th>Food Type</th>
+                    <th>Description</th>
+                    <th>Benefits</th>
+                    <th>Challenges</th>
+                    <th>Recommender For</th>
+                </tr>
+                <tr><!--Row 2-->
+                    <td>Wet Food</td>
+                    <td>Moist and soft food</td>
+                    <td>Hydration easy to digest, favorul</td>
+                    <td>Shorter shelf life, more expensive</td>
+                    <td>Cats, older pets, pets needing hydration</td>
+                </tr>
+                <tr><!--Row 3-->
+                    <td>Dry Food</td>
+                    <td>Crunchy and long-lasting food</td>
+                    <td>Convenient, good for dental health, affordable</td>
+                    <td>Low moisture content, may lead to dehydration</td>
+                    <td>Active dogs, everyday use</td>
+                </tr>
+                <tr><!--Row 4-->
+                    <td>Raw Food</td>
+                    <td>Natural, uncooked food</td>
+                    <td>High in protein, mimics natural diet</td>
+                    <td>Expensive, risk of bacteria if not handled properly</td>
+                    <td>Dogs and cats with specific health needs</td>
+                </tr>
+                <tr><!--Row 5-->
+                    <td>Homemade Food</td>
+                    <td>Freshly prepared meals</td>
+                    <td>Customizable, ideal for allergies or specific needs</td>
+                    <td>Time-consuming, requires knowledge for balanced nutrition</td>
+                    <td>Pets with special dietary needs</td>
+                </tr>
+                <tr><!--Row 6-->
+                    <td>Commercial Flakes/Pellets</td>
+                    <td>Dried, bite-sized fish food</td>
+                    <td>Easy to digest, supports gill and fin health</td>
+                    <td>Can lead to overfeeding, needs portion control</td>
+                    <td>Fish</td>
+                </tr>
+                <tr><!--Row 7-->
+                    <td>Seed Mix or Pellets</td>
+                    <td>Seeds and formulated pellets</td>
+                    <td>Enhances feather health, balanced nutrition</td>
+                    <td>High fat content in seeds, may need variety</td>
+                    <td>Birds</td>
+                </tr>
+                <tr><!--Row 8-->
+                    <td>Grains, Nuts, Seeds, Veggies</td>
+                    <td>Mixture of grains, seeds, and nuts</td>
+                    <td>Supports dental health, provides energy</td>
+                    <td>Can lead to selective feeding, may lack variety</td>
+                    <td>Hamsters</td>
+                </tr>
+        </table> <!-- End Table -->
+    </div> <!-- End Container-->
+
+
+    <div class="comparison-section" id="comparison">
+        <h2>Pet Food Comparison</h2>
+        <p>Find the Best Nutrition for Your Pet</p>
+    
+        <div class="category">Wet Food</div>
+        <ul>
+            <li><strong>Description:</strong> Moist and soft food</li>
+            <li><strong>Benefits:</strong> Hydration, easy to digest, flavorful</li>
+            <li><strong>Challenges:</strong> Shorter shelf life, more expensive</li>
+            <li class="recommended"><strong>Recommended For:</strong> Cats, older pets, pets needing hydration</li>
+        </ul>
+    
+        <div class="category">Dry Food</div>
+        <ul>
+            <li><strong>Description:</strong> Crunchy and long-lasting food</li>
+            <li><strong>Benefits:</strong> Convenient, good for dental health, affordable</li>
+            <li><strong>Challenges:</strong> Low moisture content, may lead to dehydration</li>
+            <li class="recommended"><strong>Recommended For:</strong> Active dogs, everyday use</li>
+        </ul>
+    
+        <div class="category">Raw Food</div>
+        <ul>
+            <li><strong>Description:</strong> Natural, uncooked food</li>
+            <li><strong>Benefits:</strong> High in protein, mimics natural diet</li>
+            <li><strong>Challenges:</strong> Expensive, risk of bacteria if not handled properly</li>
+            <li class="recommended"><strong>Recommended For:</strong> Dogs and cats with specific health needs</li>
+        </ul>
+    
+        <div class="category">Homemade Food</div>
+        <ul>
+            <li><strong>Description:</strong> Freshly prepared meals</li>
+            <li><strong>Benefits:</strong> Customizable, ideal for allergies or specific needs</li>
+            <li><strong>Challenges:</strong> Time-consuming, requires knowledge for balanced nutrition</li>
+            <li class="recommended"><strong>Recommended For:</strong> Pets with special dietary needs</li>
+        </ul>
+    
+        <div class="category">Commercial Flakes/Pellets</div>
+        <ul>
+            <li><strong>Description:</strong> Dried, bite-sized fish food</li>
+            <li><strong>Benefits:</strong> Easy to digest, supports gill and fin health</li>
+            <li><strong>Challenges:</strong> Can lead to overfeeding, needs portion control</li>
+            <li class="recommended"><strong>Recommended For:</strong> Fish</li>
+        </ul>
+    
+        <div class="category">Seed Mix or Pellets</div>
+        <ul>
+            <li><strong>Description:</strong> Seeds and formulated pellets</li>
+            <li><strong>Benefits:</strong> Enhances feather health, balanced nutrition</li>
+            <li><strong>Challenges:</strong> High fat content in seeds, may limit variety</li>
+            <li class="recommended"><strong>Recommended For:</strong> Birds</li>
+        </ul>
+    
+        <div class="category">Grains, Nuts, Seeds, Veggies</div>
+        <ul>
+            <li><strong>Description:</strong> Mixture of grains, seeds, and nuts</li>
+            <li><strong>Benefits:</strong> Supports dental health, provides energy</li>
+            <li><strong>Challenges:</strong> Can lead to selective feeding, may limit variety</li>
+            <li class="recommended"><strong>Recommended For:</strong> Hamsters</li>
+        </ul>
+    </div>
+
+    <!-- Pets Nutrition -->
+    <h1 class="nutrition-head">Pets Nutrition</h1>
+    <div class="nutrition-background" id="nutrition">
+        <div class="nutrition-wrapper">
+
+            <div class="dog-nutri">
+                <h2>Dogs</h2>
+                <p>
+                    Dogs need a balanced diet rich in protein, 
+                    carbohydrates, fats, and essential vitamins. 
+                    They typically thrive on either dry kibble 
+                    or wet food, with occasional raw or homemade meals. 
+                    Adult dogs are usually fed twice a day, while puppies 
+                    may require more frequent feeding.
+                </p>
+            </div>
+
+            <div class="cat-nutri">
+                <h2>Cats</h2>
+                <p>
+                    Cats are obligate carnivores, meaning they require a 
+                    high-protein diet primarily derived from animal sources. 
+                    Wet food is ideal for hydration, but dry food can also be 
+                    included. Cats should be fed smaller, frequent meals throughout 
+                    the day to mimic their natural hunting behavior.
+                </p>
+            </div>
+
+            <div class="fish-nutri">
+                <h2>Fish</h2>
+                <p>
+                    Fish should be fed specialized flakes or pellets that match their 
+                    species' nutritional needs. It's important to feed them small 
+                    amounts once or twice daily to avoid overfeeding, which can 
+                    pollute the tank. Some fish may also enjoy occasional treats 
+                    like freeze-dried worms or vegetables.
+                </p>
+            </div>
+
+            <div class="bird-nutri">
+                <h2>Fish</h2>
+                <p>
+                    Birds benefit from a diet of high-quality seed mixes or pellets, 
+                    supplemented with fresh fruits and vegetables. Seeds should be 
+                    given in moderation, as they can be high in fat. Fresh water 
+                    and a varied diet are essential for maintaining their feather 
+                    and overall health.
+                </p>
+            </div>
+
+            <div class="hamster-nutri">
+                <h2>Hamsters</h2>
+                <p>
+                    Hamsters should eat a variety of grains, seeds, nuts, and dried 
+                    vegetables, which support their dental health and energy levels. 
+                    Fresh vegetables can be offered as treats. Feed hamsters once a day, 
+                    and ensure they have access to fresh water at all times.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Desktop Footer Section -->
+    <footer class="desktop-footer">
+        <div class="footer-container">
+          <div class="footer-content">
+            
+            <!-- Contact Information -->
+            <div class="footer-section footer-inquire">
+              <h3>FurEver Care</h3>
+              <p>For further inquiries please contact us at</p>
+              <p>
+                <img src="icons/mail.png" alt="Email icon" class="icon"> 
+                <a href="mailto:FurEverCare@gmail.com">FurEverCare@gmail.com</a>
+              </p>
+              <p>
+                <img src="icons/phone.png" alt="Phone icon" class="icon"> 
+                +63 923 641 3567
+              </p>
+            </div>
+            
+            <!-- Nutrition Links -->
+            <div class="footer-section footer-nutrition">
+              <h4>Nutrition</h4>
+              <ul>
+                <li><a href="nutrition.html#benefits">Benefits</a></li>
+                <li><a href="nutrition.html#nutrition">Pets Nutrition</a></li>
+                <li><a href="nutrition.html#comparison">Comparison</a></li>
+              </ul>
+            </div>
+            
+            <!-- About Links -->
+            <div class="footer-section footer-about">
+                <h4>About</h4>
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="terms.html#privacy">Privacy</a></li>
+                  <li><a href="terms.html#terms">Terms</a></li>
+                </ul>
+              </div>
+            
+            <!-- Social Media Icons -->
+            <div class="footer-section footer-socials">
+                <h4>Social Media</h4>
+                <p>@FurEverCare</p>
+                  <p>
+                      <a href="https://www.facebook.com/profile.php?id=61555428561983" target="_blank"><img src="icons/facebook.png" alt="Facebook icon" class="social-icon"></a>
+                      <a href="https://www.instagram.com/keep.pet/" target="_blank"><img src="icons/insta.png" alt="Instagram icon" class="social-icon"></a>
+                      <a href="https://x.com/biscuitpetcare" target="_blank"><img src="icons/twitter.png" alt="X icon" class="social-icon"></a>
+                      <a href="https://www.youtube.com/@Petcareamanvashisht" target="_blank"><img src="icons/youtube.png" alt="YouTube icon" class="social-icon"></a>
+                      <a href="https://www.tiktok.com/@petcarelifestyle?lang=en" target="_blank"><img src="icons/tiktok.png" alt="TikTok icon" class="social-icon"></a>
+                  </p>
+              
+              </div>
+            
+    
+          </div>
+
+            <h2 class="copyright">
+                Copyright © 2024 FurEver Care. All Rights Reserved. Web Application by Informatics, Inc.
+            </h2>
+        </div>
+      </footer>
+
+
+      <footer class="mobile-footer">
+        <div class="mobile-footer-container">
+            <!-- Contact Information -->
+            <div class="mobile-footer-section mobile-footer-inquire">
+                <h3>FurEver Care</h3>
+                <p>For further inquiries please contact us at</p>
+                <p>
+                  <img src="icons/mail.png" alt="Email icon" class="icon"> 
+                  <a href="mailto:FurEverCare@gmail.com">FurEverCare@gmail.com</a>
+                </p>
+                <p>
+                  <img src="icons/phone.png" alt="Phone icon" class="icon"> 
+                  +63 923 641 3567
+                </p>
+              </div>
+
+              <div class="footer-arrow-container">
+                <div class="mobile-footer-elements nutrition-toggle">
+                    <h5>NUTRITION</h5>
+                    <img src ="icons/arrow-down.png" alt="arrow down" class="mobile-arrows"/>            
+                </div>
+
+                <div class="footer-nutrition-section">
+                    <ul class="nutrition-list">
+                        <li><a href="nutrition.html#benefits">Benefits</a></li>
+                        <li><a href="nutrition.html#nutrition">Pets Nutrition</a></li>
+                        <li><a href="nutrition.html#comparison">Comparison</a></li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <div class="mobile-footer-elements about-toggle">
+                    <h5>ABOUT</h5>
+                    <img src ="icons/arrow-down.png" alt="arrow down"  class="mobile-arrows"/>            
+                </div>
+
+                <div class="footer-about-section">
+                    <ul class="about-list">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="terms.html#privacy">Privacy</a></li>
+                        <li><a href="terms.html#terms">Terms</a></li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <div class="mobile-footer-elements mobile-last-footer">
+                    <h5>SOCIAL MEDIA</h5>
+                    <div class="mobile-footer-socials">
+                        <p>
+                            <a href="https://www.facebook.com/profile.php?id=61555428561983" target="_blank"><img src="icons/facebook.png" alt="Facebook icon" class="social-icon"></a>
+                            <a href="https://www.instagram.com/keep.pet/" target="_blank"><img src="icons/insta.png" alt="Instagram icon" class="social-icon"></a>
+                            <a href="https://x.com/biscuitpetcare" target="_blank"><img src="icons/twitter.png" alt="X icon" class="social-icon"></a>
+                            <a href="https://www.youtube.com/@Petcareamanvashisht" target="_blank"><img src="icons/youtube.png" alt="YouTube icon" class="social-icon"></a>
+                            <a href="https://www.tiktok.com/@petcarelifestyle?lang=en" target="_blank"><img src="icons/tiktok.png" alt="TikTok icon" class="social-icon"></a>
+                        </p>
+                    </div>           
+                </div>
+                
+
+              </div>
+
+              <h4>Copyright © 2024 FurEver Care All Rights Reserved.</h4>
+
+        </div>
+      </footer>
+      
+      
+
+
+      <script src="js/main.js"></script>
+</body>
+</html>

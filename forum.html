@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurEver Care</title>
+    <link rel="icon" href="icons/favicon.png" type="image/png">
+    <link rel = "stylesheet" href ="css/styles.css">
+    <link rel = "stylesheet" href ="css/mediaque.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Labrada:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="desktop-header"> 
+    <nav>
+        <div class="logo">
+            <h1><a href="index.html">FurEver Care</a></h1>
+        </div>
+        <div class="nav-wrapper">
+            <ul class="nav-links">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="forum.html" class="active">Forum</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+            </ul>
+            <a href="profile.html"><img src="icons/profile.png" alt="profilee icon"></a>
+        </div>
+    </nav>
+</header>
+
+<header class="mobile-header tablet-header">
+    <nav class="navbar">
+        <div class="mheader-container">
+            <!-- Hamburger Menu Icon -->
+            <button class="menu-toggle">
+                <img src="icons/burger.png" alt="Menu">
+            </button>
+            
+            <!-- Website Title -->
+            <div class="site-title">
+                <h1><a href="index.html">FurEver Care</a></h1>
+            </div>
+            
+            <!-- Register Button -->
+            <a href="register.html" class="mobile-register-btn">Register</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Sidebar -->
+<aside class="left-sidebar">
+  <div class="profile-section">
+      <img src="images/Forum/mark.PNG" alt="Profile Picture" class="profile-pics">
+      <h2>Mark Oliver</h2>
+      <p>markoliver@gmail.com</p>
+      <button class="edit-profile-btns"> <a href="profile.html">Edit Profile</a></button>
+  </div>
+  <ul class="menu-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="forum.html">Forum</a></li>
+      <li><a href="nutrition.html">Nutrition</a></li>
+  </ul>
+  <button class="logout-btn">Logout</button>
+  <a href="terms.html" class="terms-policy">Terms and Policy</a>
+</aside>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>FurEver Care</h1>
+            <h2>Keeping Your Pets <span>Happy and Healthy</span></h2>
+            <p>Register to access our open forum, connect with other pet owners, and exchange advice.</p>
+            <a href="register.html" class="cta-btn">Get Started</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/Logo.png" alt="Pet Care">
+        </div>
+    </section>
+
+
+    <div class="create-post mobile-create-post">
+
+      <div class="post-create">
+        <img src="icons/profile.png" alt="profile icon" />
+        <input type="text" placeholder="What's on your mind?" />
+      </div>
+
+      <hr>
+      <div class="post-options">
+
+        <div class="photo">
+          <img src="icons/forum/gallery.png" alt="gallery icon">
+          <p>Picture</p>
+        </div>
+
+        <div class="video">
+          <img src="icons/forum/video.png " alt="video icon">
+          <p>Video</p>
+        </div>
+
+        <div class="tag">
+          <img src="icons/forum/tag.png " alt="Tag icon">
+          <p>Tag</p>
+        </div>
+        
+      </div>
+    </div>
+
+     <!-- Top Pagination -->
+     <div class="pagination">
+        <ul>
+          <li><a href="#" class="active">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">10</a></li>
+          <li><a href="#">32</a></li>
+          <li><a href="#">Next</a></li>
+        </ul>
+      </div>
+
+    <!-- FORUM -->
+    <div class="container">
+        <!-- Left Section: Post Feed -->
+        <div class="post-feed">
+          <!-- Top Navigation for tabs -->
+          <nav class="feed-navigation">
+            <ul>
+              <li><a href="#" class="active">Latest</a></li>
+              <li><a href="#">Help Others</a></li>
+              <li><a href="#">Tips</a></li>
+            </ul>
+          </nav>
+          
+          <!-- Post List -->
+          <div class="post"> <!-- Border -->
+
+            <div class="post-wrapper"> <!--  INSIDE WRAPPER-->
+
+            <div class="left-section">
+              <div class="forumpfp">
+                <img src="images/maryjane.png" alt="User Image" class="user-image">
+              </div>
+            </div>
+
+
+            <div class="middle-section">
+              <div class="post-name">
+                <span class="user-name">Mare Jane</span>
+              </div>
+
+              <div class="post-content">
+                <h3>Best Foods for Senior Pets?</h3>
+                <p>
+                  I have an older dog and a senior cat, and I've noticed that their
+                  energy levels aren't what they used to be. I'm thinking of switching
+                  up their diets to support joint health and overall wellness.
+                  Does anyone have recommendations for the best types of food
+                  for senior pets? I'm especially looking for options that are easy
+                  to digest and help with maintaining their energy and weight as they age.
+                </p>
+              </div>
+
+              <div class="post-actions">
+                <div class="heart">
+                  <img src="icons/forum/heart.png" alt="heart button" />
+                  <p>5</p>
+                </div>
+
+                <div class="dislike">
+                  <img src="icons/forum/dislike.png" alt="dislike button" />
+                  <p>0</p>
+                </div>
+
+                <div class="chat">
+                  <img src="icons/forum/chat.png" alt="chat button" />
+                  <p>1</p>    
+                </div>
+
+              </div>
+            </div>
+
+              <div class="right-section">
+                <div class="post-time">
+                  <p>2 mins ago</p>
+                </div>
+
+                <div class="report">
+                  <p>!Report</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reply">
+                <div class="profile">
+                    <img src="icons/profile.png" alt="profile icon">
+                </div>
+
+                <div class="reply-bar">
+                    <div class="reply-text"><p>Reply to this post</p></div>
+                    <div class="reply-text mobile-reply-text"><p>Click To View Discussion</p></div>
+                </div>
+            </div>
+
+          
+          </div>
+      
+          <!--2nd Post-->
+          <div class="post"> 
+
+            <div class="post-wrapper"> <!--  INSIDE WRAPPER-->
+
+            <div class="left-section">
+              <div class="forumpfp">
+                <img src="images/Forum/john.png" alt="User Image" class="user-image">
+              </div>
+            </div>
+
+
+            <div class="middle-section">
+              <div class="post-name">
+                <span class="user-name">John Williams</span>
+              </div>
+
+              <div class="post-content">
+                <h3>How Often Should I Clean My Fish Tank?</h3>
+                <p>
+                  I’m fairly new to keeping fish, and I’m not sure how often 
+                  I should be cleaning the tank. I've heard mixed advice on 
+                  whether to do partial water changes weekly or biweekly, 
+                  and I want to make sure I’m not stressing out my fish. 
+                  What do you all recommend? Any tips for keeping the water 
+                  clear and maintaining a healthy environment for the fish would be great!
+                </p>
+              </div>
+
+              <div class="post-actions">
+                <div class="heart">
+                  <img src="icons/forum/heart.png" alt="heart button" />
+                  <p>43</p>
+                </div>
+
+                <div class="dislike">
+                  <img src="icons/forum/dislike.png" alt="dislike button" />
+                  <p>2</p>
+                </div>
+
+                <div class="chat">
+                  <img src="icons/forum/chat.png" alt="chat button" />
+                  <p>12</p>    
+                </div>
+
+              </div>
+            </div>
+
+              <div class="right-section">
+                <div class="post-time">
+                  <p>2 mins ago</p>
+                </div>
+
+                <div class="report">
+                  <p>!Report</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reply">
+                <div class="profile">
+                    <img src="icons/profile.png" alt="profile icon">
+                </div>
+
+                <div class="reply-bar">
+                    <div class="reply-text"><p>Reply to this post</p></div>
+                    <div class="reply-text mobile-reply-text"><p>Click To View Discussion</p></div>
+                </div>
+            </div>
+
+          
+          </div> <!--End 2rd Post-->
+
+          <!--3rd Post-->
+          <div class="post"> 
+
+            <div class="post-wrapper"> <!--  INSIDE WRAPPER-->
+
+            <div class="left-section">
+              <div class="forumpfp">
+                <img src="images/Forum/mark.PNG" alt="User Image" class="user-image">
+              </div>
+            </div>
+
+
+            <div class="middle-section">
+              <div class="post-name">
+                <span class="user-name">Mark Oliver</span>
+              </div>
+
+              <div class="post-content">
+                <h3>Bird Training Tips?</h3>
+                <p>
+                  I recently adopted a young parrot, and I really want to 
+                  start training it. I’ve heard birds can learn a variety 
+                  of tricks, but I’m not sure where to begin. What are some easy 
+                  tricks I can teach my bird as a beginner? Also, how can I 
+                  make sure that training sessions are fun and engaging without 
+                  overwhelming my bird? I'd love to hear your experiences with bird training.
+                </p>
+              </div>
+
+              <div class="post-actions">
+                <div class="heart">
+                  <img src="icons/forum/heart.png" alt="heart button" />
+                  <p>17</p>
+                </div>
+
+                <div class="dislike">
+                  <img src="icons/forum/dislike.png" alt="dislike button" />
+                  <p>4</p>
+                </div>
+
+                <div class="chat">
+                  <img src="icons/forum/chat.png" alt="chat button" />
+                  <p>9</p>    
+                </div>
+
+              </div>
+            </div>
+
+              <div class="right-section">
+                <div class="post-time">
+                  <p>2 mins ago</p>
+                </div>
+
+                <div class="report">
+                  <p>!Report</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reply">
+                <div class="profile">
+                    <img src="icons/profile.png" alt="profile icon">
+                </div>
+
+                <div class="reply-bar">
+                    <div class="reply-text"><p>Reply to this post</p></div>
+                    <div class="reply-text mobile-reply-text"><p>Click To View Discussion</p></div>
+                </div>
+            </div>
+
+          
+          </div> <!--End 3rd Post-->
+
+
+          <!--4th Post-->
+          <div class="post"> 
+
+            <div class="post-wrapper"> <!--  INSIDE WRAPPER-->
+
+            <div class="left-section">
+              <div class="forumpfp">
+                <img src="images/Forum/sophie.PNG"User Image" class="user-image">
+              </div>
+            </div>
+
+
+            <div class="middle-section">
+              <div class="post-name">
+                <span class="user-name">Sophie Williams</span>
+              </div>
+
+              <div class="post-content">
+                <h3>Hamster Chewing on Cage Bars. Normal?</h3>
+                <p>
+                  I’ve noticed my hamster constantly chewing on the bars of its cage, 
+                  and I’m not sure if it’s normal behavior or something to be concerned 
+                  about. I’ve provided toys and chew sticks, but it seems fixated on the 
+                  cage bars. Has anyone else experienced this with their hamster? Is 
+                  this a sign that something’s wrong, or just a bad habit? Any advice 
+                  on how to manage this would be helpful.
+                </p>
+              </div>
+
+              <div class="post-actions">
+                <div class="heart">
+                  <img src="icons/forum/heart.png" alt="heart button" />
+                  <p>21</p>
+                </div>
+
+                <div class="dislike">
+                  <img src="icons/forum/dislike.png" alt="dislike button" />
+                  <p>1</p>
+                </div>
+
+                <div class="chat">
+                  <img src="icons/forum/chat.png" alt="chat button" />
+                  <p>13</p>    
+                </div>
+
+              </div>
+            </div>
+
+              <div class="right-section">
+                <div class="post-time">
+                  <p>2 mins ago</p>
+                </div>
+
+                <div class="report">
+                  <p>!Report</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reply">
+                <div class="profile">
+                    <img src="icons/profile.png" alt="profile icon">
+                </div>
+
+                <div class="reply-bar">
+                    <div class="reply-text"><p>Reply to this post</p></div>
+                    <div class="reply-text mobile-reply-text"><p>Click To View Discussion</p></div>
+                </div>
+            </div>
+
+          
+          </div> <!--End 4th Post-->
+
+        </div>
+        
+        <!-- Right Section: Sidebar -->
+        <aside class="sidebar">
+          <h2 class="postheader">Create a Post</h2>
+
+          <div class="create-post">
+
+            <div class="post-create">
+              <img src="icons/profile.png" alt="profile icon" />
+              <input type="text" placeholder="What's on your mind?" />
+            </div>
+
+            <hr>
+            <div class="post-options">
+
+              <div class="photo">
+                <img src="icons/forum/gallery.png" alt="gallery icon">
+                <p>Picture</p>
+              </div>
+
+              <div class="video">
+                <img src="icons/forum/video.png " alt="video icon">
+                <p>Video</p>
+              </div>
+
+              <div class="tag">
+                <img src="icons/forum/tag.png " alt="Tag icon">
+                <p>Tag</p>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="top-helpers">
+            <h2>Top Helpers</h2>
+            <h4>All time &nbsp&nbsp&nbsp&nbsp&nbsp Week  &nbsp&nbsp&nbsp&nbsp&nbsp   Month</h4>
+            <ol>
+              <li>
+                  <div class="helper-wrapper">
+                    <div class="helper-img">
+                      <img src="images/Forum/1.PNG" alt="profile picture">
+                    </div>
+                    <div class="helper-text">
+                      <h3>Rain Solano</h3>
+                      <p>654 Hearts</p>
+                    </div>
+                  </div>
+              </li>
+              
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/2.PNG" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>Sophie Williams</h3>
+                    <p>544 Hearts</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/3.PNG" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>Jynx Navara</h3>
+                    <p>521 Hearts</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/4.PNG" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>Mark Oliver</h3>
+                    <p>517 Hearts</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/5.PNG" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>Bhey Blayd</h3>
+                    <p>492 Hearts</p>
+                  </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/6,7,9.png" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>Mark Zuck</h3>
+                    <p>476 Hearts</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/6,7,9.png" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>Darren Watkins</h3>
+                    <p>442 Hearts</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/8.png" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>Mare Jane</h3>
+                    <p>410 Hearts</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/6,7,9.png" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>Bruce Marshall</h3>
+                    <p>386 Hearts</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="helper-wrapper">
+                  <div class="helper-img">
+                    <img src="images/Forum/10.png" alt="profile picture">
+                  </div>
+                  <div class="helper-text">
+                    <h3>John Williams</h3>
+                    <p>354 Hearts</p>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </aside>
+      </div>
+      
+
+      <!-- Bottom Pagination -->
+      <div class="pagination">
+        <ul>
+          <li><a href="#" class="active">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">10</a></li>
+          <li><a href="#">32</a></li>
+          <li><a href="#">Next</a></li>
+        </ul>
+      </div>
+      
+
+
+    <!-- Desktop Footer Section -->
+    <footer class="desktop-footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          
+          <!-- Contact Information -->
+          <div class="footer-section footer-inquire">
+            <h3>FurEver Care</h3>
+            <p>For further inquiries please contact us at</p>
+            <p>
+              <img src="icons/mail.png" alt="Email icon" class="icon"> 
+              <a href="mailto:FurEverCare@gmail.com">FurEverCare@gmail.com</a>
+            </p>
+            <p>
+              <img src="icons/phone.png" alt="Phone icon" class="icon"> 
+              +63 923 641 3567
+            </p>
+          </div>
+          
+          <!-- Nutrition Links -->
+          <div class="footer-section footer-nutrition">
+            <h4>Nutrition</h4>
+            <ul>
+              <li><a href="nutrition.html#benefits">Benefits</a></li>
+              <li><a href="nutrition.html#types">Types of Food</a></li>
+              <li><a href="nutrition.html#nutrition">Pets Nutrition</a></li>
+              <li><a href="nutrition.html#comparison">Comparison</a></li>
+            </ul>
+          </div>
+          
+          <!-- About Links -->
+          <div class="footer-section footer-about">
+              <h4>About</h4>
+              <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="terms.html#privacy">Privacy</a></li>
+                <li><a href="terms.html#terms">Terms</a></li>
+              </ul>
+            </div>
+          
+          <!-- Social Media Icons -->
+          <div class="footer-section footer-socials">
+              <h4>Social Media</h4>
+              <p>@FurEverCare</p>
+                <p>
+                    <a href="https://www.facebook.com/profile.php?id=61555428561983" target="_blank"><img src="icons/facebook.png" alt="Facebook icon" class="social-icon"></a>
+                    <a href="https://www.instagram.com/keep.pet/" target="_blank"><img src="icons/insta.png" alt="Instagram icon" class="social-icon"></a>
+                    <a href="https://x.com/biscuitpetcare" target="_blank"><img src="icons/twitter.png" alt="X icon" class="social-icon"></a>
+                    <a href="https://www.youtube.com/@Petcareamanvashisht" target="_blank"><img src="icons/youtube.png" alt="YouTube icon" class="social-icon"></a>
+                    <a href="https://www.tiktok.com/@petcarelifestyle?lang=en" target="_blank"><img src="icons/tiktok.png" alt="TikTok icon" class="social-icon"></a>
+                </p>
+            
+            </div>
+          
+  
+        </div>
+
+          <h2 class="copyright">
+              Copyright © 2024 FurEver Care. All Rights Reserved. Web Application by Informatics, Inc.
+          </h2>
+      </div>
+    </footer>
+
+
+    <footer class="mobile-footer">
+      <div class="mobile-footer-container">
+          <!-- Contact Information -->
+          <div class="mobile-footer-section mobile-footer-inquire">
+              <h3>FurEver Care</h3>
+              <p>For further inquiries please contact us at</p>
+              <p>
+                <img src="icons/mail.png" alt="Email icon" class="icon"> 
+                <a href="mailto:FurEverCare@gmail.com">FurEverCare@gmail.com</a>
+              </p>
+              <p>
+                <img src="icons/phone.png" alt="Phone icon" class="icon"> 
+                +63 923 641 3567
+              </p>
+            </div>
+
+            <div class="footer-arrow-container">
+              <div class="mobile-footer-elements nutrition-toggle">
+                  <h5>NUTRITION</h5>
+                  <img src ="icons/arrow-down.png" alt="arrow down" class="mobile-arrows"/>            
+              </div>
+
+              <div class="footer-nutrition-section">
+                  <ul class="nutrition-list">
+                      <li><a href="nutrition.html#benefits">Benefits</a></li>
+                      <li><a href="nutrition.html#nutrition">Pets Nutrition</a></li>
+                      <li><a href="nutrition.html#comparison">Comparison</a></li>
+                  </ul>
+              </div>
+
+              <hr>
+
+              <div class="mobile-footer-elements about-toggle">
+                  <h5>ABOUT</h5>
+                  <img src ="icons/arrow-down.png" alt="arrow down"  class="mobile-arrows"/>            
+              </div>
+
+              <div class="footer-about-section">
+                  <ul class="about-list">
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="terms.html#privacy">Privacy</a></li>
+                      <li><a href="terms.html#terms">Terms</a></li>
+                  </ul>
+              </div>
+
+              <hr>
+
+              <div class="mobile-footer-elements mobile-last-footer">
+                  <h5>SOCIAL MEDIA</h5>
+                  <div class="mobile-footer-socials">
+                      <p>
+                          <a href="https://www.facebook.com/profile.php?id=61555428561983" target="_blank"><img src="icons/facebook.png" alt="Facebook icon" class="social-icon"></a>
+                          <a href="https://www.instagram.com/keep.pet/" target="_blank"><img src="icons/insta.png" alt="Instagram icon" class="social-icon"></a>
+                          <a href="https://x.com/biscuitpetcare" target="_blank"><img src="icons/twitter.png" alt="X icon" class="social-icon"></a>
+                          <a href="https://www.youtube.com/@Petcareamanvashisht" target="_blank"><img src="icons/youtube.png" alt="YouTube icon" class="social-icon"></a>
+                          <a href="https://www.tiktok.com/@petcarelifestyle?lang=en" target="_blank"><img src="icons/tiktok.png" alt="TikTok icon" class="social-icon"></a>
+                      </p>
+                  </div>           
+              </div>
+              
+
+            </div>
+
+            <h4>Copyright © 2024 FurEver Care All Rights Reserved.</h4>
+
+      </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

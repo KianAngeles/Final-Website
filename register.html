@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurEver Care</title>
+    <link rel="icon" href="icons/favicon.png" type="image/png">
+    <link rel = "stylesheet" href ="css/styles.css">
+    <link rel = "stylesheet" href ="css/mediaque.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Labrada:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="desktop-header"> 
+        <nav>
+            <div class="logo">
+                <h1><a href="index.html">FurEver Care</a></h1>
+            </div>
+            <div class="nav-wrapper">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                </ul>
+                <a href="register.html" class="register-btn">Register Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <header class="mobile-header tablet-header">
+        <nav class="navbar">
+            <div class="mheader-container">
+                <!-- Hamburger Menu Icon -->
+                <button class="menu-toggle">
+                    <img src="icons/burger.png" alt="Menu">
+                </button>
+                
+                <!-- Website Title -->
+                <div class="site-title">
+                    <h1><a href="index.html">FurEver Care</a></h1>
+                </div>
+                
+                <!-- Register Button -->
+                <a href="register.html" class="mobile-register-btn">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="left-sidebar">
+        <div class="profile-section">
+            <img src="images/Forum/mark.PNG" alt="Profile Picture" class="profile-pics">
+            <h2>Mark Oliver</h2>
+            <p>markoliver@gmail.com</p>
+            <button class="edit-profile-btns"> <a href="profile.html">Edit Profile</a></button>
+        </div>
+        <ul class="menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="forum.html">Forum</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+        </ul>
+        <button class="logout-btn">Logout</button>
+        <a href="terms.html" class="terms-policy">Terms and Policy</a>
+    </aside>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>FurEver Care</h1>
+            <h2>Keeping Your Pets <span>Happy and Healthy</span></h2>
+            <p>Register to access our open forum, connect with other pet owners, and exchange advice.</p>
+        </div>
+        <div class="hero-image">
+            <img src="images/Logo.png" alt="Pet Care">
+        </div>
+    </section>
+
+    <h1 class="title">FurEver Care</h1>
+    <div class="form-container">
+        <!-- Left section -->
+        <div class="left-section">
+            
+            <div class="formabout">
+                <h2>About</h2>
+                <p>
+                    FurEver Care is your go-to resource for expert pet care tips, offering guidance on caring for 
+                    dogs, cats, fish, birds, and hamsters. Whether you're a new pet owner or experienced, our site 
+                    helps you ensure your pets live happy, healthy lives.
+                </p>
+            </div>
+
+            <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="review">
+                    <img src="images/maryjane.png" alt="Mara Jane" class="profile-pic">
+                    <p>
+                        <strong>Mare Jane</strong> 
+                        <br>★★★★★<br>
+                        FurEver Care is an amazing resource for new pet owners, with clear tips, a helpful comparison table,
+                        and a welcoming forum community.
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="images/johnwilliams.png" alt="John Williams" class="profile-pic">
+                    <p>
+                        <strong>John Williams</strong>
+                         <br>★★★★★<br>
+                        FurEver Care stands out with its practical pet care advice, heartwarming videos,
+                        and a supportive forum for all pet lovers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>
+                    <img src="icons/mail.png" alt="Email" class="icon">
+                    FurEverCare@gmail.com
+                </p>
+                <p>
+                    <img src="icons/phone.png" alt="Phone" class="icon">
+                    +63 923 641 3567
+                </p>
+            </div>
+
+            <div class="formsocial-media">
+                <h2>Social Media</h2>
+                <p>@FurEverCare</p>
+                <div class="social-icons">
+                    <img src="icons/facebook.png" alt="Facebook">
+                    <img src="icons/insta.png" alt="Instagram">
+                    <img src="icons/tiktok.png" alt="Twitter">
+                    <img src="icons/youtube.png" alt="YouTube">
+                    <img src="icons/tiktok.png" alt="TikTok">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right section -->
+        <div class="form-right-section">
+            <h2>Join Us Today!</h2>
+            <form class="signup-form">
+                <h4>First Name</h4>
+                <input type="text" placeholder="First Name" required>
+                
+                <h4>Last Name</h4>
+                <input type="text" placeholder="Last Name" required>
+                
+                <h4>Email</h4>
+                <input type="email" placeholder="Email" required>
+                
+                <h4>Password</h4>
+                <input type="password" placeholder="Password" required>
+                
+                <h4>Confirm Password</h4>
+                <input type="password" placeholder="Confirm Password" required>
+        
+                <!-- Checkbox for agreeing to terms -->
+                <div class="terms">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">By signing up you agree to our <a href="#">Terms of Use</a></label>
+                </div>
+        
+                
+                <button type="submit">Create Account</button>
+                <p>Already a member? <a href="#">Login Here</a></p>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Desktop Footer Section -->
+    <footer class="desktop-footer">
+        <div class="footer-container">
+          <div class="footer-content">
+            
+            <!-- Contact Information -->
+            <div class="footer-section footer-inquire">
+              <h3>FurEver Care</h3>
+              <p>For further inquiries please contact us at</p>
+              <p>
+                <img src="icons/mail.png" alt="Email icon" class="icon"> 
+                <a href="mailto:FurEverCare@gmail.com">FurEverCare@gmail.com</a>
+              </p>
+              <p>
+                <img src="icons/phone.png" alt="Phone icon" class="icon"> 
+                +63 923 641 3567
+              </p>
+            </div>
+            
+            <!-- Nutrition Links -->
+            <div class="footer-section footer-nutrition">
+              <h4>Nutrition</h4>
+              <ul>
+                <li><a href="nutrition.html#benefits">Benefits</a></li>
+                <li><a href="nutrition.html#types">Types of Food</a></li>
+                <li><a href="nutrition.html#nutrition">Pets Nutrition</a></li>
+                <li><a href="nutrition.html#comparison">Comparison</a></li>
+              </ul>
+            </div>
+            
+            <!-- About Links -->
+            <div class="footer-section footer-about">
+                <h4>About</h4>
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="terms.html#privacy">Privacy</a></li>
+                  <li><a href="terms.html#terms">Terms</a></li>
+                </ul>
+              </div>
+            
+            <!-- Social Media Icons -->
+            <div class="footer-section footer-socials">
+                <h4>Social Media</h4>
+                <p>@FurEverCare</p>
+                  <p>
+                      <a href="https://www.facebook.com/profile.php?id=61555428561983" target="_blank"><img src="icons/facebook.png" alt="Facebook icon" class="social-icon"></a>
+                      <a href="https://www.instagram.com/keep.pet/" target="_blank"><img src="icons/insta.png" alt="Instagram icon" class="social-icon"></a>
+                      <a href="https://x.com/biscuitpetcare" target="_blank"><img src="icons/twitter.png" alt="X icon" class="social-icon"></a>
+                      <a href="https://www.youtube.com/@Petcareamanvashisht" target="_blank"><img src="icons/youtube.png" alt="YouTube icon" class="social-icon"></a>
+                      <a href="https://www.tiktok.com/@petcarelifestyle?lang=en" target="_blank"><img src="icons/tiktok.png" alt="TikTok icon" class="social-icon"></a>
+                  </p>
+              
+              </div>
+            
+    
+          </div>
+
+            <h2 class="copyright">
+                Copyright © 2024 FurEver Care. All Rights Reserved. Web Application by Informatics, Inc.
+            </h2>
+        </div>
+      </footer>
+
+
+      <footer class="mobile-footer">
+        <div class="mobile-footer-container">
+            <!-- Contact Information -->
+            <div class="mobile-footer-section mobile-footer-inquire">
+                <h3>FurEver Care</h3>
+                <p>For further inquiries please contact us at</p>
+                <p>
+                  <img src="icons/mail.png" alt="Email icon" class="icon"> 
+                  <a href="mailto:FurEverCare@gmail.com">FurEverCare@gmail.com</a>
+                </p>
+                <p>
+                  <img src="icons/phone.png" alt="Phone icon" class="icon"> 
+                  +63 923 641 3567
+                </p>
+              </div>
+
+              <div class="footer-arrow-container">
+                <div class="mobile-footer-elements nutrition-toggle">
+                    <h5>NUTRITION</h5>
+                    <img src ="icons/arrow-down.png" alt="arrow down" class="mobile-arrows"/>            
+                </div>
+
+                <div class="footer-nutrition-section">
+                    <ul class="nutrition-list">
+                        <li><a href="nutrition.html#benefits">Benefits</a></li>
+                        <li><a href="nutrition.html#nutrition">Pets Nutrition</a></li>
+                        <li><a href="nutrition.html#comparison">Comparison</a></li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <div class="mobile-footer-elements about-toggle">
+                    <h5>ABOUT</h5>
+                    <img src ="icons/arrow-down.png" alt="arrow down"  class="mobile-arrows"/>            
+                </div>
+
+                <div class="footer-about-section">
+                    <ul class="about-list">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="terms.html#privacy">Privacy</a></li>
+                        <li><a href="terms.html#terms">Terms</a></li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <div class="mobile-footer-elements mobile-last-footer">
+                    <h5>SOCIAL MEDIA</h5>
+                    <div class="mobile-footer-socials">
+                        <p>
+                            <a href="https://www.facebook.com/profile.php?id=61555428561983" target="_blank"><img src="icons/facebook.png" alt="Facebook icon" class="social-icon"></a>
+                            <a href="https://www.instagram.com/keep.pet/" target="_blank"><img src="icons/insta.png" alt="Instagram icon" class="social-icon"></a>
+                            <a href="https://x.com/biscuitpetcare" target="_blank"><img src="icons/twitter.png" alt="X icon" class="social-icon"></a>
+                            <a href="https://www.youtube.com/@Petcareamanvashisht" target="_blank"><img src="icons/youtube.png" alt="YouTube icon" class="social-icon"></a>
+                            <a href="https://www.tiktok.com/@petcarelifestyle?lang=en" target="_blank"><img src="icons/tiktok.png" alt="TikTok icon" class="social-icon"></a>
+                        </p>
+                    </div>           
+                </div>
+                
+
+              </div>
+
+              <h4>Copyright © 2024 FurEver Care All Rights Reserved.</h4>
+
+        </div>
+      </footer>
+
+
+      <script src="js/main.js"></script>
+</body>
+</html>
