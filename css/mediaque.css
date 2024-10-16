@@ -284,6 +284,10 @@
         margin-bottom: 10px;
     }
 
+    .report {
+        display: block;
+    }
+
     .cards p{
         color: #1A1010;
         text-align: center;
@@ -1106,6 +1110,10 @@
         width: 100%;
         cursor: pointer;
         font-size: 18px; /* Larger font size for logout */
+    }
+
+    .report {
+        display: block;
     }
 
     .terms-policy {
