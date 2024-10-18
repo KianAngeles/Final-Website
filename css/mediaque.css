@@ -1350,6 +1350,7 @@
     .nutri-hero-img-container{
         width: 300px;
         height: 300px;
+        z-index: 1;
     }
 
     .nutri-hero-img img{
@@ -1357,6 +1358,7 @@
         height: 220px;
         margin-left: 40px;
         margin-bottom: 20px;
+        z-index: 2;
     }
 
     .nutri-hero-text h1{
