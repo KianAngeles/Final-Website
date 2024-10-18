@@ -1419,7 +1419,7 @@ h1.title {
     height: 412px;
     flex-shrink: 0;
     border-radius: 450px;
-    background: rgba(178, 238, 179, 0.49);
+    background-color: black;
     margin-top: 20px;
     display: flex;
     justify-content: center;
