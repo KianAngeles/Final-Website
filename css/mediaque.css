@@ -1349,12 +1349,14 @@
 
     .nutri-hero-img-container{
         width: 300px;
+        position: relative;
         height: 300px;
         z-index: 1;
     }
 
     .nutri-hero-img img{
         width: 220px;
+        position: relative;
         height: 220px;
         margin-left: 40px;
         margin-bottom: 20px;
