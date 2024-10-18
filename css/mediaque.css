@@ -1358,7 +1358,7 @@
         height: 220px;
         margin-left: 40px;
         margin-bottom: 20px;
-        z-index: 2;
+        z-index: 1000;
     }
 
     .nutri-hero-text h1{
